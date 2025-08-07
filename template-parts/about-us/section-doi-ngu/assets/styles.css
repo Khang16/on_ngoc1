@@ -1,0 +1,377 @@
+.team-about {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 3.416rem 8.76025rem 6.334rem 8.73975rem;
+}
+
+.team__bg {
+	width: 100%;
+	height:5.28rem;
+	position: absolute;
+	top: -4.5rem;
+	height: auto;
+}
+
+.team__items {
+	position: relative;
+	width: 100%;
+}
+
+.team__items_wrap {
+	position: relative;
+	width: 82.5rem;
+	height: 45.3125rem;
+}
+
+.team__text {
+	position: absolute;
+	color: #4e5255;
+	font-family: SVN-Gotham;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 1.5rem; /* 150% */
+	letter-spacing: -0.01rem;
+	width: 27.57131rem;
+	top: 2.5rem;
+	right: 6.25rem;
+}
+
+.team__item_1 {
+	width: 20.85906rem;
+	height: 26.76006rem;
+	transform: rotate(-3.726deg);
+	flex-shrink: 0;
+	position: absolute;
+	z-index: 1;
+	left: 7.04rem;
+	top: 5.25rem;
+	border: 9px solid #FFF;
+	box-shadow: 0 2.336px 3.504px 1.168px rgba(0, 0, 0, 0.12);
+}
+
+.team--img-1 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.team__item_2 {
+	position: absolute;
+	z-index: 3;
+	width: 29.29894rem;
+	height: 18.39138rem;
+	transform: rotate(8.457deg);
+	flex-shrink: 0;
+	top: 8.98rem;
+	left: 27.32rem;
+	bottom: 16.83rem;
+	border: 9px solid #FFF;
+	box-shadow: 0 2.336px 3.504px 1.168px rgba(0, 0, 0, 0.12);
+}
+
+.team--img-2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.team__item_3 {
+	position: absolute;
+	z-index: 4;
+	width: 21.39644rem;
+	height: 27.25419rem;
+	transform: rotate(1.213deg);
+	flex-shrink: 0;
+	right: 6.75rem;
+	bottom: 2.49rem;
+	border: 9px solid #FFF;
+	box-shadow: 0 2.336px 3.504px 1.168px rgba(0, 0, 0, 0.12);
+}
+
+.team--img-3 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.team__item_4 {
+	position: absolute;
+	z-index: 2;
+	width: 29.29894rem;
+	height: 18.39138rem;
+	transform: rotate(-3.726deg);
+	flex-shrink: 0;
+	bottom: 0.02rem;
+	left: 16.02rem;
+	border: 9px solid #FFF;
+	box-shadow: 0 2.336px 3.504px 1.168px rgba(0, 0, 0, 0.12);
+}
+
+.team--img-4 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.team__pen {
+	position: absolute;
+	z-index: 5;
+	width: 14.3125rem;
+	height: 14.875rem;
+	bottom: 5rem;
+	right: 25.94rem;
+}
+
+.team__logo {
+	position: absolute;
+	z-index: 5;
+	display: flex;
+	width: 14.56381rem;
+	height: 5.52294rem;
+	transform: rotate(-8deg);
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	left: 3.9rem;
+	top: 6.95rem;
+}
+
+.team__circle {
+	position: absolute;
+	z-index: 5;
+	width: 8.46256rem;
+	height: 8.46256rem;
+	transform: rotate(-146.172deg);
+	right: 1.53rem;
+	top: 14.21rem;
+	display: none;
+}
+
+.circular-text-wrap {
+  display: flex;
+    width: 9.46256rem;
+    height: 9.46256rem;
+    position: absolute;
+    z-index: 5;
+    top: 13rem;
+    right: 2.53rem;
+}
+
+.circular-text {
+	display: flex;
+	position: absolute;
+}
+
+.circular-text {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	position: relative;
+	font-weight: 700;
+	color: white;
+	font-size: 0.8rem;
+	text-align: center;
+	cursor: pointer;
+	animation: spin linear infinite;
+	top: 0.0625rem;
+	left: 0.0625rem;
+}
+
+.circular-text span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform-origin: 0 0;
+	transition: all 0.3s ease;
+	white-space: pre;
+}
+
+.team__circular {
+	width: 4.40069rem;
+	height: 4.56981rem;
+	/* 	transform: rotate(198.172deg); */
+	position: absolute;
+    top: 22%;
+    left: 22%;
+}
+
+.team__cricle__bg {
+  width: 8.46256rem;
+  height: 8.46256rem;
+  border-radius: 50%; /* làm tròn ảnh nếu ảnh không tròn sẵn */
+  animation: spin 5s linear infinite;
+  transform-origin: center center; /* xoay quanh tâm */
+  display: block;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 639.98px) {
+	.team__exclude {
+		top: -1rem;
+	}
+	.team__bg {
+		top: 0;
+		transform: translatey(-98%);
+	}
+	.team-about {
+		padding: 2.75rem 0.75rem;
+	}
+
+	.team__items {
+		display: flex;
+		flex-direction: column;
+		gap: 3.44rem;
+	}
+
+	.team__text {
+		position: unset;
+		width: 100%;
+		top: 0;
+		right: 0;
+		font-family: SVN-Gotham;
+		font-size: 1rem;
+		font-style: normal;
+		font-weight: 450;
+		line-height: 1.5rem; /* 150% */
+		letter-spacing: -0.01rem;
+		color: #4e5255;
+	}
+
+	.team__items_wrap {
+		width: 100%;
+		height: 14.96163rem;
+		flex-shrink: 0;
+	}
+
+	.team__item_1 {
+		width: 8.24319rem;
+		height: 10.57513rem;
+		transform: rotate(-3.726deg);
+		flex-shrink: 0;
+		top: 0;
+		bottom: 4.59rem;
+		left: 0rem;
+		border: 3.557px solid #FFF;
+		box-shadow: 0 0.923px 1.385px 0.462px rgba(0, 0, 0, 0.12);
+	}
+
+	.team__item_2 {
+        width: 12.57069rem;
+        height: 8.26313rem;
+        transform: rotate(8.457deg);
+        flex-shrink: 0;
+        top: unset;
+        left: unset;
+        bottom: 6rem;
+        right: 0.38rem;
+        border: 3.557px solid #FFF;
+        box-shadow: 0 0.923px 1.385px 0.462px rgba(0, 0, 0, 0.12);
+	}
+
+	.team__item_3 {
+		width: 7.42319rem;
+		height: 9.45544rem;
+		transform: rotate(22.726deg);
+		flex-shrink: 0;
+        top: 6.02rem;
+        left: 13.79rem;
+		right: unset;
+		bottom: unset;
+		border: 3.557px solid #FFF;
+		box-shadow: 0 0.923px 1.385px 0.462px rgba(0, 0, 0, 0.12);
+	}
+	.team__item_4 {
+		width: 10.16488rem;
+		height: 6.38063rem;
+		transform: rotate(-3.726deg);
+		flex-shrink: 0;
+		bottom: -0.3rem;
+		left: 3rem;
+		border: 3.557px solid #FFF;
+		box-shadow: 0 0.923px 1.385px 0.462px rgba(0, 0, 0, 0.12);
+	}
+
+	.team__pen {
+		width: 4.9655rem;
+		height: 5.16069rem;
+		flex-shrink: 0;
+		bottom: 3.6rem;
+		left: 10rem;
+	}
+	.team__logo {
+		width: 5.05269rem;
+		height: 1.91613rem;
+		transform: rotate(-8deg);
+		bottom: 0.57rem;
+		left: 0;
+		top: unset;
+	}
+
+	.team__circle {
+		width: 3.985rem;
+		height: 3.985rem;
+		top: 0;
+		right: 0;
+	}
+
+	.circular-text-wrap {
+        width: 3.5rem;
+        height: 3.5rem;
+        top: 0.5625rem;
+        left: 18.65rem;
+	}
+
+	.circular-text {
+		width: 0;
+		height: 0;
+		border-radius: 50%;
+		position: relative;
+		font-weight: 700;
+		color: white;
+		font-size: 0.4rem;
+		text-align: center;
+		cursor: pointer;
+		animation: spin linear infinite;
+		top: 2.32rem;
+		left: 2.32rem;
+	}
+
+	.circular-text span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform-origin: 0 0;
+		transition: all 0.3s ease;
+		white-space: pre;
+	}
+
+	.team__circular {
+/* 		transform: rotate(198.172deg); */
+		position: absolute;
+		
+	}
+	
+	.team__cricle__bg{
+	    width: 100%;
+        height: 100%;
+	}
+	
+	.team__circular{
+	    width: 2.4rem;
+        height: 2.5rem;
+        top: 16%;
+        left: 16%;
+	}
+}

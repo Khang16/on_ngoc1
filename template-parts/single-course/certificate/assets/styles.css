@@ -1,0 +1,204 @@
+#certificate {
+	min-height: 54rem;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+#certificate .certificate__bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#certificate .container {
+	position: relative;
+	z-index: 2;
+	display: flex;
+}
+#certificate .certificate__content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.certificate__content .certificate__content__title {
+	display: flex;
+	align-items: center;
+}
+.certificate__content .certificate__title__icon {
+	display: flex;
+	flex-direction: column;
+}
+.certificate__title__icon .icon__certificate {
+	width: 6.0625rem;
+	height: auto;
+	object-fit: contain;
+}
+.certificate__title__icon .icon__under {
+	width: 6.875rem;
+	height: auto;
+	object-fit: contain;
+	margin-top: 0.35rem;
+}
+.certificate__content .certificate__title__text {
+	color: #2c0f66;
+	margin-left: 1.31rem;
+}
+.certificate__content__description {
+	color: var(--TEXT-300, #6b7280);
+	margin-top: 1.31rem;
+}
+#certificate .certificate__img {
+	width: 46.26731rem;
+	height: 46.26731rem;
+	flex-shrink: 0;
+	position: relative;
+}
+.certificate__img .certificate__img__shadow {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.certificate__img .certificate__violet__large {
+	width: 11.63906rem;
+	height: 11.63906rem;
+	position: absolute;
+	top: 1.45rem;
+	left: 6.54rem;
+}
+.certificate__img .certificate__violet__medium {
+	position: absolute;
+	width: 3.4465rem;
+	height: 3.4465rem;
+	top: 11.37rem;
+	left: 2.17rem;
+}
+.certificate__img .certificate__violet__small {
+	width: 1.39669rem;
+	height: 1.39669rem;
+	position: absolute;
+	top: 16.37rem;
+	left: 6.56rem;
+}
+.certificate__img .certificate__img__certificate {
+	width: calc(21.54731rem + 18px);
+	height: calc(30.46475rem + 18px);
+	position: absolute;
+	z-index: 5;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.certificate__img .certificate__img__certificate div {
+	border-radius: 1.25rem;
+	border: 9px solid #fff;
+	background: #fff;
+	box-shadow: 0px 2.708px 9.7px 0px rgba(0, 0, 0, 0.12);
+}
+.certificate__img .certificate__img__certificate img {
+	border-radius: 1.25rem;
+	width: 100%;
+	height: 100%;
+}
+.certificate__img .certificate__green__large {
+	width: 11.14556rem;
+	height: 11.14556rem;
+	bottom: 1.98rem;
+	right: 5.27rem;
+	position: absolute;
+}
+.certificate__img .certificate__green__medium {
+	width: 4.10456rem;
+	height: 4.10456rem;
+	position: absolute;
+	right: 4.43rem;
+	bottom: 14.21rem;
+}
+
+/* @media screen and (max-width: 1024px) {
+#certificate {
+min-height: 90vh 
+}
+} */
+
+@media screen and (max-width: 639px) {
+	#certificate {
+		padding-top: 3.3rem;
+		min-height: auto;
+		padding-bottom: 1.85rem;
+	}
+	#certificate .certificate__bg {
+		display: none;
+	}
+	#certificate .container {
+		flex-direction: column;
+		width: 100%;
+		padding: 0 0.75rem;
+	}
+	.certificate__content .certificate__title__icon {
+		display: none;
+	}
+	#certificate .certificate__img {
+		width: 100%;
+		height: 22.24388rem;
+	}
+	.certificate__content .certificate__title__text {
+		margin-left: 0;
+		text-align: center;
+	}
+	.certificate__content__description {
+		color: var(--TEXT-500, #393939);
+		text-align: center;
+		margin-top: 1.38rem;
+		margin-bottom: 2.56rem;
+		font-weight: 325;
+		line-height: 150%; /* 1.125rem */
+		letter-spacing: -0.03rem;
+	}
+	.certificate__img .certificate__violet__large {
+		width: 5.59569rem;
+		height: 5.59569rem;
+		top: 0.7rem;
+		left: 3.14rem;
+	}
+	.certificate__img .certificate__violet__medium {
+		top: 5.47rem;
+		left: 1.03rem;
+		width: 1.65694rem;
+		height: 1.65694rem;
+	}
+	.certificate__img .certificate__violet__small {
+		width: 0.6715rem;
+		height: 0.6715rem;
+		top: 7.88rem;
+		left: 3.14rem;
+	}
+	.certificate__img .certificate__green__large {
+		width: 5.35844rem;
+		height: 5.35844rem;
+		right: 2.55rem;
+		bottom: 0.95rem;
+	}
+	.certificate__img .certificate__green__medium {
+		width: 1.97338rem;
+		height: 1.97338rem;
+		right: 2.13rem;
+		bottom: 6.83rem;
+	}
+	.certificate__img .certificate__img__certificate {
+		width: calc(10.35931rem + 8.8px);
+		height: calc(14.6465rem + 8.8px);
+	}
+	.certificate__img .certificate__img__certificate div {
+		border-radius: 0.60094rem;
+		border: 4.327px solid #fff;
+		box-shadow: 0px 1.302px 4.663px 0px rgba(0, 0, 0, 0.12);
+	}
+	.certificate__img .certificate__img__certificate img {
+		border-radius: 0.60094rem;
+	}
+}

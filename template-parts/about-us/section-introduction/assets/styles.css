@@ -1,0 +1,294 @@
+.introduction-section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	margin-top: -2.5rem;
+}
+
+.background-desktop,
+.background-mobile {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.background-desktop {
+	display: block;
+}
+
+.background-mobile {
+	display: none;
+}
+
+.introduction-wrapper {
+	position: relative;
+	z-index: 2;
+}
+
+.images-grid {
+	display: flex;
+}
+.image-main {
+	margin-top: 8.6rem;
+	margin-left: 5.5rem;
+}
+.image-secondary {
+	margin-top: 22.8rem;
+	margin-left: -1.8rem;
+}
+.image-tertiary {
+	margin-top: 9.5rem;
+	margin-left: 3.5rem;
+}
+
+.image-frame1 {
+	width: 21.21581rem;
+	height: 21.21581rem;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.image-frame2 {
+	width: 17.09375rem;
+	height: 17.09375rem;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.image-frame3 {
+	width: 31.25rem;
+	height: 31.25rem;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.introduction-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.image-logo {
+	width: 7.8385rem;
+	height: 2.54375rem;
+	margin: 0 auto;
+}
+
+.logo-image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 7.5rem;
+}
+
+.introduction-content {
+	width: 46rem;
+	margin: 0 auto;
+}
+
+.introduction-description {
+	margin-top: 9.45rem;
+	color: var(--TEXT-500, #393939);
+	font-family: SVN-Gotham;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 1.8125rem;
+	letter-spacing: -0.03794rem;
+}
+
+.introduction-detail {
+	color: var(--Text-2, #6b6a6e);
+	font-family: SVN-Gotham;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 1.5rem;
+	letter-spacing: -0.01rem;
+	margin-top: 1.5rem;
+}
+
+.title-and-year {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 12rem;
+}
+
+.introduction-title,
+.introduction-year {
+	color: var(--tm-main, #5b378f);
+	text-align: center;
+	font-family: SVN-Gotham;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 0.94625rem; 
+	letter-spacing: 0.01369rem;
+	text-transform: capitalize;
+	margin-top: 1.8rem;
+}
+
+.introduction-title {
+	padding-right: 0.7rem;
+}
+
+.introduction-year {
+	padding-left: 0.5rem;
+	position: relative;
+}
+
+.introduction-year::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 0.05rem;
+	height: 0.5rem; 
+	background-color: var(--tm-main, #5b378f);
+}
+
+.decoration-dot {
+	position: absolute;
+	background: var(
+		--GRA-PURPLE,
+		linear-gradient(90deg, #5b378f 0%, #7c58b1 100%)
+	);
+	border-radius: 50%; 
+	z-index: 3;
+}
+
+.dot-1 {
+	width: 2.16113rem;
+	height: 2.16113rem;
+	top: 26rem;
+	left: 2rem;
+}
+
+.dot-2 {
+	width: 4.4795rem;
+	height: 4.4795rem;
+	top: 28.5rem;
+	left: 4rem;
+}
+
+.dot-3 {
+	width: 4.45606rem;
+	height: 4.45606rem;
+	top: 15.5rem;
+	left: 29.5rem;
+}
+
+.dot-4 {
+	width: 3.08494rem;
+	height: 3.08494rem;
+	top: 10rem;
+	right: 4.5rem;
+}
+
+@media (max-width: 639.98px) {
+	.introduction-images {
+		padding-top: 2.45rem;
+	}
+	.background-desktop {
+		display: none;
+	}
+
+	.background-mobile {
+		display: block;
+	}
+
+	.introduction-section {
+		margin-top: 0rem;
+	}
+
+	.container {
+		width: 100% !important;
+	}
+
+	.introduction-content {
+		width: 95%;
+		padding: 0rem;
+	}
+
+	.introduction-description {
+		margin-top: 5rem;
+		font-size: 1.08rem;
+		line-height: 1.5rem;
+	}
+
+	.introduction-detail {
+		margin-top: 1.2rem;
+		font-size: 0.9rem;
+		line-height: 1.4rem;
+	}
+
+	.image-main {
+		margin-top: 2rem;
+		margin-left: 0.8rem;
+	}
+	.image-secondary {
+		margin-top: 11rem;
+		margin-left: -4rem;
+	}
+	.image-tertiary {
+		margin-top: 0.5rem;
+		margin-left: -1.7rem;
+	}
+
+	.image-frame1 {
+		width: 8.43581rem;
+		height: 8.43581rem;
+	}
+
+	.image-frame2 {
+		width: 6.79675rem;
+		height: 6.79675rem;
+	}
+
+	.image-frame3 {
+		width: 12.42556rem;
+		height: 12.42556rem;
+	}
+
+	.logo-image {
+		margin-top: 3rem;
+	}
+
+	.title-and-year {
+		margin-top: -0.2rem;
+		padding-bottom: 0;
+	}
+
+	.dot-1 {
+		width: 1.5rem;
+		height: 1.5rem;
+		top: 13rem;
+		left: 13rem;
+	}
+
+	.dot-2 {
+		width: 1.78113rem;
+		height: 1.78113rem;
+		top: 11rem;
+		left: 2.5rem;
+	}
+
+	.dot-3,
+	.dot-4 {
+		display: none;
+	}
+}

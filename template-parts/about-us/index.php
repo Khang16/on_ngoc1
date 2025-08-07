@@ -1,0 +1,9 @@
+<?php
+get_template_part('template-parts/about-us/section-new-language/index');
+get_template_part('template-parts/about-us/section-introduction/index');
+get_template_part('template-parts/about-us/section-become-a-student/index');
+get_template_part('template-parts/about-us/section-su-menh/index');
+get_template_part('template-parts/about-us/section-giang-vien/index');
+get_template_part('template-parts/front-page/section-chinh-phuc/index');
+get_template_part('template-parts/about-us/section-doi-ngu/index');
+get_template_part('template-parts/about-us/section-thanh-qua/index');

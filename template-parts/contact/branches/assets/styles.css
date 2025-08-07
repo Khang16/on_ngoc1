@@ -1,0 +1,214 @@
+@media screen and (min-width: 640px) {
+  .space-section {
+    width: 95.625rem;
+    height: 0.0625rem;
+    border-top: 1px solid #ecebf0;
+    margin: 4.46rem auto 1.54rem;
+  }
+}
+
+.branches-section {
+  width: 82.375rem;
+  margin: 0 auto;
+}
+
+.branches-section h2 {
+  color: #2c0f66;
+  font-family: SVN-Gotham;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.1875rem; /* 141.667% */
+  letter-spacing: -0.03375rem;
+  text-transform: capitalize;
+  margin-bottom: 2.875rem;
+}
+
+.branches-wrapper {
+  display: flex;
+}
+.branches__left {
+  border-radius: 1rem;
+  background: #fff;
+  width: 26.25rem;
+  padding: 0.75rem;
+}
+
+.branches__image {
+  width: 100%;
+  height: 12.85569rem;
+  border-radius: 1.5rem;
+  object-fit: cover;
+}
+
+.branches__content {
+  margin-top: 0.75rem;
+  height: 12.375rem;
+  padding: 0.9375rem 0.75rem;
+  width: 100%;
+  border-radius: 1.5rem;
+  background: var(--TM, #5b378f);
+}
+
+.branches__name {
+  color: var(--WHITE-100, #fff);
+  font-family: SVN-Gotham;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 133.333% */
+  text-transform: uppercase;
+}
+
+.branches__info {
+  margin-top: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: SVN-Gotham;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1.26563rem; /* 144.643% */
+  letter-spacing: 0.00844rem;
+}
+
+.branches__info-top {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: SVN-Gotham;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 325;
+  line-height: 1.26563rem; /* 144.643% */
+  letter-spacing: 0.00844rem;
+  text-transform: uppercase;
+}
+.branches__info-top svg {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+.branches__info-wrapper {
+  display: flex;
+}
+.branches__info-wrapper .branches__info:first-child {
+  margin-right: 1.5rem;
+}
+
+.branches__right {
+  border-radius: 1rem;
+  background: #fff;
+  margin-left: 0.75rem;
+  flex: 1;
+  padding: 0.75rem;
+  overflow: hidden;
+}
+.branches__right iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 639.98px) {
+  .branches-section {
+    width: 100%;
+    padding: 0 0.75rem;
+    margin-top: 5.22rem;
+  }
+
+  .branches-section h2 {
+    color: #100249;
+
+    /* TEXT/MB/22/B */
+    font-family: SVN-Gotham;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: -0.0275rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+
+  .branches-wrapper {
+    flex-direction: column;
+  }
+  .branches__left {
+    width: 100%;
+  }
+
+  .branches__image {
+    display: none;
+  }
+
+  .branches__content {
+    margin-top: 0;
+    border-radius: 0.625rem;
+  }
+  
+
+  .branches__name {
+    margin-bottom: 2rem;
+  }
+
+  .branches__info {
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+
+    /* TEXT/MB/14/R */
+    font-family: SVN-Gotham;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 160%; /* 1.4rem */
+    letter-spacing: -0.02725rem;
+  }
+
+  .branches__info-top {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.65);
+
+    /* TEXT/MB/12/BO */
+    font-family: SVN-Gotham;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 325;
+    line-height: 150%; /* 1.125rem */
+    letter-spacing: -0.03rem;
+  }
+  .branches__info-top svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+  .branches__info-wrapper {
+    display: flex;
+  }
+  .branches__info-wrapper .branches__info:first-child {
+    margin-right: 1.5rem;
+  }
+  .branches__info-wrapper .branches__info {
+    color: rgba(255, 255, 255, 0.8);
+
+    /* TEXT/MB/12/R */
+    font-family: SVN-Gotham;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 140%; /* 1.05rem */
+    letter-spacing: -0.0225rem;
+  }
+
+  .branches__right {
+    margin-left: 0rem;
+    margin-top: 0.75rem;
+    height: 14.25rem;
+    flex: none;
+  }
+  .branches__right iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+  }
+}

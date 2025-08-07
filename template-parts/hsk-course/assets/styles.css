@@ -1,0 +1,19 @@
+@import url("../../page-course/banner/assets/styles.css");
+@import url('../section-course-for-whom/assets/styles.css');
+@import url('../section-study-schedule/assets/styles.css');
+@import url('../section-special-feature/assets/styles.css');
+@import url('../section-1000-students/assets/styles.css');
+@import url('../section-appreciate/assets/styles.css');
+@import "../../components/faqs/assets/styles.css";
+@import "../../page-course/footer-form/assets/styles.css";
+
+.faq-section {
+	background: #fff;
+}
+
+
+@media (max-width: 639.98px){
+	.faq-section {
+		background: #fff;
+	}
+}

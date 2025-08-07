@@ -1,0 +1,110 @@
+/* banner */
+.blog-list-banner {
+	width: 100%;
+	height: 31.9375rem;
+	position: relative;
+}
+.blog-list-banner > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.blog-list-banner-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+.blog-list-banner-content::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 13.25006rem;
+	opacity: 0.6;
+	background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.blog-list-breadcrumb {
+	display: flex;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: SVN-Gotham;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 0.94938rem; /* 126.583% */
+	letter-spacing: 0.02375rem;
+	text-transform: uppercase;
+	margin-bottom: 0.75rem;
+	padding: 0 8.75rem;
+}
+.blog-list-breadcrumb p {
+	color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	align-items: center;
+}
+.blog-list-breadcrumb p::before {
+	content: '';
+	width: 0.25rem;
+	height: 0.25rem;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 0.5rem;
+}
+.blog-list-banner h1 {
+	padding: 0 8.75rem;
+	color: #fff;
+	font-family: SVN-Gotham;
+	font-size: 3.375rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 122.4%; /* 4.131rem */
+	letter-spacing: -0.16875rem;
+	text-transform: capitalize;
+	margin-bottom: 3.75rem;
+}
+
+.blog-list-banner--deco {
+	width: 100%;
+	height: auto;
+	transform: translateY(1px);
+}
+.blog-list-banner--deco svg {
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 639.98px) {
+	.blog-list-banner {
+		height: 25.125rem;
+	}
+	.blog-list-banner-content::after {
+		height: 6.79875rem;
+		opacity: 0.7;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+	}
+
+	.blog-list-breadcrumb {
+		margin-bottom: 13rem;
+		padding: 0 0.75rem;
+	}
+	.blog-list-banner h1 {
+		padding: 0 0.75rem;
+		font-size: 1.875rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 135%; /* 2.53125rem */
+		letter-spacing: -0.02813rem;
+		text-transform: capitalize;
+		margin-bottom: 2rem;
+	}
+}

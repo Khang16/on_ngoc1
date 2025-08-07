@@ -1,0 +1,316 @@
+@import url('../contact-form/assets/styles.css');
+
+
+
+#contact {
+	padding: 10.96rem 0;
+
+	position: relative;
+	padding-top:9.34rem;
+}
+
+#contact .bg__contact {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+
+}
+#contact .bg__contact img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#contact .contact__advise {
+	width: 84.8rem;
+	margin: 0 auto;
+
+
+}
+
+#contact .contact__advise .title {
+	color: #2C0F66;
+	font-family: "SVN-Gotham";
+	font-size: 2.25rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 3.1875rem; /* 141.667% */
+	letter-spacing: -0.03375rem;
+	text-transform: capitalize;
+	padding-left: 1.19rem;
+	margin-bottom: 1.91rem;
+
+}
+
+#contact .contact__advise .contact__form {
+
+	position: relative;
+	height: fit-content;
+	padding: 2.5rem 25.87rem 2.62rem 1.87rem;
+
+	/* background: #FFF; */
+	/* box-shadow: 0px 4px 46.9px 0px rgba(0, 0, 0, 0.05); */
+
+
+}
+
+#contact .contact__advise .contact__form .form__title {
+
+	color: #2C0F66;
+	font-family: "SVN-Gotham";
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 3.1875rem;
+	/* 159.375% */
+	letter-spacing: -0.03rem;
+	text-transform: capitalize;
+	margin-bottom: 0.79rem;
+
+}
+
+#contact .contact__advise .contact__form .form__message {
+
+	width: 24.4rem;
+	color: #69647E;
+	font-family: "SVN-Gotham";
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 1.47938rem;
+	/* 169.071% */
+	letter-spacing: -0.03125rem;
+	margin-bottom: 1.12rem;
+
+}
+
+#contact .contact__advise .contact__form .form__bg {
+
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* background: black; */
+	left: 0;
+	z-index: -1;
+	background: white;
+
+	border-radius: 2rem;
+	overflow: hidden;
+	box-shadow: 0px 4px 46.9px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+#contact .contact__advise .contact__form .form__bg .bg__girl {
+	width: 32.5625rem;
+	height: 31.9375rem;
+	position: absolute;
+	bottom: 0;
+	right: -2rem;
+	z-index: 0;
+
+}
+#contact .contact__advise .contact__form .form__bg .bg__girl img {
+
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+
+}
+
+#contact .contact__advise .contact__form .form__bg .bg__round {
+	width: 34.99019rem;
+	height: 46.15431rem;
+	position: absolute;
+	bottom: -7.5rem;
+	right: -0.5rem;
+	opacity: 0.4;
+	z-index:-1;
+}
+#contact .contact__advise .contact__form .form__bg .bg__round img{
+
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	/* transform: rotate(10deg); */
+
+}
+
+#contact .contact__advise .contact__form .template-parts__contact__contact-form__index {}
+
+#contact .contact__advise .contact__form .form__seperator {}
+#contact .bg__contact .bg__girl,#contact .bg__contact .bg__round {
+	display:none;
+}
+.contact__breadcrumb {
+	position: relative;
+	margin-bottom: 0.75rem;
+	width: 84.8rem;
+	margin: 0 auto;
+	margin-bottom:5.79rem;
+}
+.breadcrumb__list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+
+	padding-left: 1.19rem;
+
+}
+.breadcrumb__item {
+	font-family: "SVN-Gotham";
+	font-size: 0.71931rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 0.94938rem;
+	letter-spacing: 0.02375rem;
+	text-transform: uppercase;
+}
+.breadcrumb__item:first-child {
+	color: rgba(16, 2, 73, 0.35);
+}
+.breadcrumb__item:first-child a {
+	font-size: 0.74413rem;
+}
+.breadcrumb__item:not(:last-child) {
+	margin-right: 0.25rem;
+}
+.breadcrumb__item:last-child {
+	color: rgba(16, 2, 73, 0.20);
+}
+.breadcrumb__item__link {
+	color: inherit;
+	text-decoration: none;
+	font-size: inherit;
+}
+[data-aos][data-aos][data-aos-easing="my-custom-bounce"] {
+	transition-timing-function: cubic-bezier(0.64, 0.01, 0.32, 0.98) !important;
+}
+
+@media screen and (max-width :639.9px) {
+	#contact {
+
+		padding: 3.47rem 0 27.5rem 0;
+
+	}
+	#contact .contact__advise {
+		width: 100%;
+		margin: 0;
+		padding: 0 0.75rem;
+
+	}
+	#contact .contact__advise .title {
+
+		padding: 0;
+		font-size: 1.875rem;
+		line-height: 150%; /* 2.8125rem */
+		letter-spacing: -0.02813rem;
+		margin-bottom: 1.5rem;
+
+	}
+	#contact .contact__advise .contact__form {
+
+		padding: 0;
+		width: 100%;
+		padding: 1.44rem 1.25rem;
+		border-radius: 1rem;
+		box-shadow: unset;
+
+	}
+	#contact .contact__advise .contact__form .form__title {
+
+		color: #100249;
+		font-size: 1.375rem;
+		line-height: 150%; /* 2.0625rem */
+		letter-spacing: -0.0275rem;
+		margin-bottom: 0.5rem;
+
+	}
+	#contact .contact__advise .contact__form .form__message {
+
+		font-weight: 325;
+		line-height: 150%; /* 1.125rem */
+		letter-spacing: -0.03rem;
+		margin-bottom: 1.19rem;
+		width: 100%;
+		font-size: 0.75rem;
+
+	}
+	#contact .contact__advise .contact__form .form__bg {
+
+		border-radius: 1rem;
+
+	}
+	#contact .contact__advise .contact__form .form__bg .bg__girl, #contact .contact__advise .contact__form .form__bg .bg__round {
+
+		display: none;
+
+	}
+	.main-banner__button .main-banner__button-text::after {
+		display: none;
+	}
+	#contact .bg__contact {
+		background: #F0FCFF;
+	}
+	#contact .bg__contact img:first-child {
+		display:none
+	}
+	#contact .bg__contact .bg__girl {
+		position:absolute;
+		bottom: -2.37rem;
+		width: 100%;
+		height: 25.39006rem;
+		left:50%;
+		transform:translatex(-50%);
+		display:unset;
+		z-index:1
+	}
+	#contact .bg__contact .bg__round { 
+		position:absolute;
+		bottom: -13.25rem;
+		width: 100%;
+		height: 36.69231rem;
+		left:50%;
+		transform:translatex(-50%);
+		display:unset;
+	}
+	#contact .bg__contact .bg__girl img,#contact .bg__contact .bg__round img{
+		display:unset;
+		width:100%;
+		height:100%;
+		object-fit:contain;
+	}
+
+	.breadcrumb__list {
+		padding: 0 0.75rem;
+		margin-bottom:0;
+	}
+	.contact__breadcrumb {
+		width: 100%;
+		margin: 0.8rem 0 3.38rem 0;
+
+	}
+	.breadcrumb__item {
+		padding: 0.09375rem 0rem;
+		color: #fff;
+		font-family: "SVN-Gotham";
+		font-size: 0.74413rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 0.94938rem;
+		letter-spacing: 0.02375rem;
+		text-transform: uppercase;
+
+	}
+
+	.breadcrumb__item:not(:last-child) {
+		margin-right: 0.5rem;
+	}
+	.breadcrumb__item:last-child {
+		color: rgba(16, 2, 73, 0.20);
+	}
+}

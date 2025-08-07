@@ -1,0 +1,152 @@
+#facilities {
+  width: 100%;
+  position: relative;
+  background: white;
+  height: 76.3rem;
+  padding-top: 10.5rem;
+  overflow: hidden;
+}
+.facilities__bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.facilities__main {
+  padding-left: 21.21rem;
+  position: relative;
+  z-index: 10;
+}
+.facilities__title {
+  width: 37.4rem;
+  margin-bottom: 1.12rem;
+}
+.facilities__description {
+  width: 30.699rem;
+}
+.facilities__description + .facilities__description {
+  margin-top: 2rem;
+}
+.facilities__thumbnail__item {
+  border-radius: 1.5rem;
+  object-fit: cover;
+  position: absolute;
+}
+.facilities__thumbnail__item:nth-of-type(1) {
+  top: 8.61rem;
+  left: 12.57rem;
+  width: 12.44025rem;
+  height: 12.44025rem;
+}
+.facilities__thumbnail__item:nth-of-type(2) {
+  width: 22.87388rem;
+  height: 19.76394rem;
+  border-radius: 1.5rem;
+  top: 10.1rem;
+  right: -1.4rem;
+}
+.facilities__thumbnail__item:nth-of-type(3) {
+  width: 10.93544rem;
+  height: 15.04863rem;
+  top: 16.92rem;
+  left: -2.2rem;
+}
+.facilities__thumbnail__item:nth-of-type(4) {
+  width: 27.58925rem;
+  height: 16.45356rem;
+  top: 31.83rem;
+  right: 6rem;
+}
+.facilities__thumbnail__item:nth-of-type(5) {
+  top: 37.25rem;
+  left: 11.09rem;
+  width: 42.66519rem;
+  height: 27.41175rem;
+}
+.facilities__circle__violet {
+  width: 5.22338rem;
+  height: 5.22338rem;
+  position: absolute;
+  object-fit: cover;
+  top: 7.6rem;
+  right: 9.79rem;
+}
+.facilities__circle__green {
+  width: 5.22338rem;
+  height: 5.22338rem;
+  position: absolute;
+  object-fit: cover;
+  top: 50.12rem;
+  left: 8.5rem;
+}
+@media screen and (max-width: 639px) {
+  #facilities {
+    height: 64.7rem;
+    padding-top: 16.38rem;
+    margin-top:3rem;
+  }
+  .facilities__main {
+    padding-left: 0;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    padding: 0 0.75rem;
+  }
+  .facilities__title,
+  .facilities__description {
+    width: 100%;
+  }
+  .facilities__thumbnail__item {
+    border-radius: 0.875rem;
+  }
+  .facilities__thumbnail__item:nth-of-type(1) {
+    top: 1.63rem;
+    left: 6.7rem;
+    width: 5.35881rem;
+    height: 5.35881rem;
+  }
+  .facilities__thumbnail__item:nth-of-type(2) {
+    top: 37.13rem;
+    left: -2rem;
+    right: auto;
+    width: 14.79006rem;
+    height: 10.31894rem;
+    border-radius: 0.78319rem;
+  }
+  .facilities__thumbnail__item:nth-of-type(3) {
+    width: 6.92781rem;
+    height: 6.48238rem;
+    top: 5.58rem;
+    left: -1.2rem;
+  }
+  .facilities__thumbnail__item:nth-of-type(4) {
+    width: 12.86325rem;
+    height: 8.26444rem;
+    top: 5.82rem;
+    right: -3rem;
+  }
+  .facilities__thumbnail__item:nth-of-type(5) {
+    bottom: 3.35rem;
+    right: -1rem;
+    left: auto;
+    top: auto;
+    border-radius: 1.5rem;
+    width: 18.65788rem;
+    height: 11.98744rem;
+  }
+  .facilities__circle__violet {
+    width: 3.65481rem;
+    height: 3.65481rem;
+    top: 4rem;
+    right: 1.72rem;
+  }
+  .facilities__circle__green {
+    width: 3.65481rem;
+    height: 3.65481rem;
+    left: 3.87rem;
+    top: auto;
+    bottom: 7.33rem;
+  }
+}

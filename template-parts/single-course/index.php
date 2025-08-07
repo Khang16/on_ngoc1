@@ -1,0 +1,9 @@
+<?php
+get_template_part('template-parts/page-course/banner/index');
+get_template_part('template-parts/single-course/information/index');
+get_template_part('template-parts/single-course/roadmap/index');
+get_template_part('template-parts/single-course/certificate/index');
+get_template_part('template-parts/single-course/demand/index');
+get_template_part('template-parts/single-course/language/index');
+get_template_part('template-parts/components/faqs/index');
+get_template_part('template-parts/page-course/footer-form/index');

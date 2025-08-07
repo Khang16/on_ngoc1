@@ -1,0 +1,404 @@
+#teaching {
+  width: 100%;
+  position: relative;
+  height: 98.9rem;
+}
+.teachingProject__bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.teachingProject__main {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6.8rem;
+  height: 56.89rem;
+}
+.teachingProject__title {
+  width: 45.16081rem;
+}
+.teachingProject__description {
+  width: 35.20144rem;
+  height: fit-content;
+  font-weight: 300;
+}
+.teachingProject__people {
+  width: 33.42938rem;
+  height: 40.4765rem;
+  object-fit: cover;
+  position: absolute;
+  z-index: 5;
+  top: 23.24rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.teachingProject__marker {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+}
+.teachingProject__marker__icon {
+  width: 5.82144rem;
+  height: 5.82144rem;
+
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teachingProject__marker__icon .under {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115%;
+  height: 115%;
+  object-fit: cover;
+}
+.teachingProject__marker__icon .no_under {
+  position: relative;
+  z-index: 5;
+  width: 3.25rem;
+  height: 3.25rem;
+  object-fit: cover;
+}
+.teachingProject__marker__content {
+  position: absolute;
+  bottom: -0.25rem;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  border-radius: 0.78794rem;
+  background: linear-gradient(90deg, #2cbdbe 0%, #d1b1ff 100%);
+  box-shadow: 0px 2.802px 18.4px 0px rgba(25, 124, 125, 0.14);
+  display: flex;
+  height: 2.188rem;
+  padding: 0 0.8755rem;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  white-space: nowrap;
+  color: white;
+}
+.teachingProject__marker:nth-of-type(1) {
+  top: 41.56rem;
+  left: 9.56rem;
+}
+.teachingProject__marker:nth-of-type(2) {
+  top: 26.19rem;
+  left: 19rem;
+}
+.teachingProject__marker:nth-of-type(3) {
+  top: 20.75rem;
+  left: 46.18rem;
+}
+.teachingProject__marker:nth-of-type(4) {
+  top: 33.81rem;
+  right: 17.38rem;
+}
+.teachingProject__marker:nth-of-type(5) {
+  top: 44.62rem;
+  right: 5.35rem;
+}
+.teachingTeam {
+  width: 100%;
+  position: relative;
+  height: calc(98.9rem - 56.5rem);
+  z-index: 10;
+}
+.teachingTeam__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.teachingTeam__main {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+}
+.teachingTeam__main__content {
+  width: 46.34013rem;
+  flex-shrink: 0;
+  padding-top: 7.16rem;
+}
+.teachingTeam__title {
+  color: white;
+}
+.teachingTeam__description {
+  color: white;
+  margin-top: 0.94rem;
+  margin-bottom: 2.12rem;
+  width: 37.84488rem;
+}
+.teachingTeam__content__line {
+  height: 1px;
+  width: 29.86644rem;
+  background: rgba(255, 255, 255, 0.18);
+}
+.teachingTeam__content__counter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.teachingTeam__content__counter .stat-number {
+  color: var(--white);
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.teachingTeam__content__counter .stat-description {
+  color: var(--white);
+  width: 15.69875rem;
+}
+.teachingTeam__content__people {
+  padding-top: 3.55rem;
+  width: fit-content;
+}
+.teachingTeam__content__people img {
+  width: 36.8125rem;
+  height: 38.4rem;
+  object-fit: cover;
+}
+.teachingProject__main .main-banner__button {
+  position: absolute;
+  bottom: 3.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.teachingProject__main .main-banner__button .main-banner__button-text {
+  white-space: nowrap;
+}
+.teachingTeam .main-banner__button{
+    white-space: nowrap;
+    display: none;
+}
+.teachingTeam__main__overlay {
+  display: none;
+}
+.teachingTeam__people {
+  width: auto;
+  height: 38.4rem;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0.5rem;
+  right: -2.5rem;
+}
+.teachingTeam__people__mask {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  z-index: 10;
+}
+.teaching__white__backup {
+  display: none;
+}
+@media screen and (max-width: 639px) {
+    .teachingProject__main .main-banner__button{
+        display: none;
+    }
+    .teachingTeam .main-banner__button{
+        display: flex;
+        position: absolute;
+        top: -6rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 30;
+        height: 2.875rem;
+        padding-left: 1.4rem;
+        padding-right: 0;
+    }
+  .teachingTeam .main-banner__button .main-banner__button-text {
+    font-size: 0.75rem;
+  }
+  #teaching {
+    height: fit-content;
+    background: white;
+  }
+  .teachingProject__main {
+    padding-top: 0;
+    height: calc(61.9rem - 3.67rem);
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 100%;
+  }
+  .teachingProject__bg {
+    height: 61.9rem;
+  }
+  .teachingProject__title,
+  .teachingProject__description {
+    width: 100%;
+    padding: 0 0.75rem;
+  }
+  .teachingProject__title {
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.02063rem;
+    text-transform: capitalize;
+    margin-bottom: 1.12rem;
+  }
+  .teachingProject__people {
+    width: 18.04238rem;
+    height: 22.00056rem;
+    top: auto;
+    bottom: 0;
+    z-index: 20;
+  }
+  .teachingProject__marker__icon {
+    width: 3.66188rem;
+    height: 3.66188rem;
+  }
+  .teachingProject__marker__icon .no_under {
+    width: 2.04438rem;
+    height: 2.04438rem;
+  }
+  .teachingProject__marker__content {
+    height: 1.375rem;
+    padding: 0 0.55075rem;
+    border-radius: 0.49563rem;
+    box-shadow: 0px 1.762px 11.574px 0px rgba(25, 124, 125, 0.14);
+  }
+  .teachingProject__marker:nth-of-type(1) {
+    top: 20.87rem;
+    left: 2.6rem;
+  }
+  .teachingProject__marker:nth-of-type(2) {
+    top: 15.69rem;
+    left: 9.89rem;
+  }
+  .teachingProject__marker:nth-of-type(3) {
+    top: 20.87rem;
+    left: auto;
+    right: 2.64rem;
+  }
+  .teachingProject__marker:nth-of-type(4) {
+    top: 28.5rem;
+    right: 5.49rem;
+  }
+  .teachingProject__marker:nth-of-type(5) {
+    top: 28.5rem;
+    right: auto;
+    left: 5.72rem;
+  }
+  .teachingProject__marker .teachingProject__marker__content {
+    height: fit-content;
+    padding: 0.25rem 0.55075rem;
+    max-width: 9rem;
+  }
+  .teachingProject__marker:nth-of-type(3) .teachingProject__marker__content {
+    width: 7rem;
+    white-space: inherit;
+    height: fit-content;
+    padding: 0.25rem 0.55075rem;
+  }
+  .teachingProject__marker:nth-of-type(4) .teachingProject__marker__content {
+    width: 7rem;
+    white-space: inherit;
+    height: fit-content;
+    padding: 0.25rem 0.55075rem;
+  }
+  .teachingTeam {
+    transform: translateY(-1.33rem);
+    height: 48rem;
+  }
+  .teachingTeam__main {
+    width: 100%;
+    height: 100%;
+  }
+  .teachingTeam__main__content {
+    width: 100%;
+    padding: 5.33rem 0.75rem 0;
+  }
+  .teachingTeam__description {
+    margin-top: 1.12rem;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+  }
+  .teachingTeam__content__line {
+    display: none;
+  }
+  .teachingTeam__content__counter {
+    position: absolute;
+    bottom: 5.1rem;
+    padding: 0.44rem 1rem 0 2.3rem;
+    left: 0;
+    width: 100%;
+  }
+  .teachingTeam__content__counter::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.18);
+    width: 18.17681rem;
+    height: 1px;
+    content: "";
+  }
+  .teachingTeam__content__counter .stat-item:first-child {
+    width: 5rem;
+  }
+  .teachingTeam__content__counter .stat-item:last-child {
+    position: relative;
+  }
+  .teachingTeam__content__counter .stat-item:last-child::before {
+    position: absolute;
+    left: -1.12rem;
+    top: 2.34rem;
+    width: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    height: 1rem;
+    border-radius: 0.5rem;
+    content: "";
+  }
+  .teachingTeam__content__counter .stat-number {
+    font-size: 2.625rem;
+  }
+  .teachingTeam__content__counter .stat-description {
+    width: 100%;
+  }
+  .teachingTeam__people {
+    height: 26.85575rem;
+    width: auto;
+    object-fit: contain;
+    right: 0.63rem;
+  }
+  .teachingTeam__main__overlay {
+    width: 100%;
+    height: 13.4rem;
+    background: linear-gradient(
+      180deg,
+      rgba(91, 55, 143, 0) 0%,
+      rgba(26, 16, 37, 0.7) 100%
+    );
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 1.5rem;
+  }
+  .teaching__white__backup {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2rem;
+    background: white;
+    z-index: 15;
+  }
+}

@@ -1,0 +1,291 @@
+:root {
+    /* Variable_collection*/
+    --text-500: #393939;
+    --white-100: #ffffff;
+    --white-80: #ffffffcc;
+    --text-title-main: #2c0f66;
+    --tím: #5b378f;
+    --primary-50: #1550e5;
+    /* Paint style variables*/
+    --xanh-ngoc: #2cbdbe;
+    --white: #ffffff;
+    --WHITE-100: #ffffff;
+    --TEXT-TITLE-MAIN: #2c0f66;
+    /* Text style variables*/
+    --text-mb-20-r-font-size: 1.25rem;
+    --text-mb-20-r-font-family: "SVN-Gotham";
+    --text-mb-20-r-font-weight: normal;
+    --text-mb-20-r-line-height: 1.8125rem;
+    --text-mb-14-bo-font-size: 0.875rem;
+    --text-mb-14-bo-font-family: "SVN-Gotham";
+    --text-mb-14-bo-font-weight: 300;
+    --text-mb-14-bo-line-height: 150%;
+    --text-mb-14-r-font-size: 0.875rem;
+    --text-mb-14-r-font-family: "SVN-Gotham";
+    --text-mb-14-r-font-weight: normal;
+    --text-mb-14-r-line-height: 160.0000023841858%;
+    --text-mb-14-b-font-size: 0.875rem;
+    --text-mb-14-b-font-family: "SVN-Gotham";
+    --text-mb-14-b-font-weight: normal;
+    --text-mb-14-b-line-height: 1.5rem;
+    --text-mb-22-b-font-size: 1.375rem;
+    --text-mb-22-b-font-family: "SVN-Gotham";
+    --text-mb-22-b-font-weight: 400;
+    --text-mb-22-b-line-height: 150%;
+    --text-mb-18-b-font-size: 1.125rem;
+    --text-mb-18-b-font-family: "SVN-Gotham";
+    --text-mb-18-b-font-weight: normal;
+    --text-mb-18-b-line-height: 129.99999523162842%;
+    --text-mb-12-r_allcap-font-size: 0.75rem;
+    --text-mb-12-r_allcap-font-family: "SVN-Gotham";
+    --text-mb-12-r_allcap-font-weight: normal;
+    --text-mb-12-r_allcap-line-height: 0.9463rem;
+    --text-mb-12-bo-font-size: 0.75rem;
+    --text-mb-12-bo-font-family: "SVN-Gotham";
+    --text-mb-12-bo-font-weight: normal;
+    --text-mb-12-bo-line-height: 150%;
+    --text-mb-12-r-font-size: 0.75rem;
+    --text-mb-12-r-font-family: "SVN-Gotham";
+    --text-mb-12-r-font-weight: normal;
+    --text-mb-12-r-line-height: 139.9999976158142%;
+    --text-mb-10-r-font-size: 0.625rem;
+    --text-mb-10-r-font-family: "SVN-Gotham";
+    --text-mb-10-r-font-weight: normal;
+    --text-mb-10-r-line-height: 0.7998rem;
+    --text-mb-10-bo-font-size: 0.625rem;
+    --text-mb-10-bo-font-family: "SVN-Gotham";
+    --text-mb-10-bo-font-weight: normal;
+    --text-mb-10-bo-line-height: 0.8075rem;
+    --text-pc-18-bo-font-size: 1.125rem;
+    --text-pc-18-bo-font-family: "SVN-Gotham";
+    --text-pc-18-bo-font-weight: 300;
+    --text-pc-18-bo-line-height: normal;
+    --text-pc-18-r-font-size: 1.125rem;
+    --text-pc-18-r-font-family: "SVN-Gotham";
+    --text-pc-18-r-font-weight: 300;
+    --text-pc-18-r-line-height: 1.6875rem;
+    --text-pc-36-b-font-size: 2.25rem;
+    --text-pc-36-b-font-family: "SVN-Gotham";
+    --text-pc-36-b-font-weight: 400;
+    --text-pc-36-b-line-height: 3.1875rem;
+    --text-pc-26-r-font-size: 1.625rem;
+    --text-pc-26-r-font-family: "SVN-Gotham";
+    --text-pc-26-r-font-weight: normal;
+    --text-pc-26-r-line-height: 2.3163rem;
+    --text-pc-16-bo-font-size: 1rem;
+    --text-pc-16-bo-font-family: "SVN-Gotham";
+    --text-pc-16-bo-font-weight: normal;
+    --text-pc-16-bo-line-height: 1;
+    --text-pc-14-r-font-size: 0.875rem;
+    --text-pc-14-r-font-family: "SVN-Gotham";
+    --text-pc-14-r-font-weight: normal;
+    --text-pc-14-r-line-height: 150%;
+    --text-pc-14-bo_allcap-font-size: 0.875rem;
+    --text-pc-14-bo_allcap-font-family: "SVN-Gotham";
+    --text-pc-14-bo_allcap-font-weight: normal;
+    --text-pc-14-bo_allcap-line-height: 100%;
+}
+
+/* Color and Paint style classes */
+.color-text-500 {
+    color: var(--text-500);
+}
+.color-white-100 {
+    color: var(--white-100);
+}
+.color-white-80 {
+    color: var(--white-80);
+}
+.color-text-title-main {
+    color: var(--text-title-main);
+}
+.color-tim {
+    color: var(--tím);
+}
+.color-primary-50 {
+    color: var(--primary-50);
+}
+.color-xanh-ngoc {
+    color: var(--xanh-ngọc);
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+.font-500 {
+    font-weight: 500;
+}
+.font-600 {
+    font-weight: 600;
+}
+
+.bg-text-500 {
+    background-color: var(--text-500);
+}
+.bg-white-100 {
+    background-color: var(--white-100);
+}
+.bg-white-80 {
+    background-color: var(--white-80);
+}
+.bg-text-title-main {
+    background-color: var(--text-title-main);
+}
+.bg-tim {
+    background-color: var(--tím);
+}
+.bg-primary-50 {
+    background-color: var(--primary-50);
+}
+.bg-xanh-ngoc {
+    background-color: var(--xanh-ngọc);
+}
+
+/* Typography classes */
+
+/* TEXT/PC/18/BO */
+.text-pc-18-bo {
+    font-size: var(--text-pc-18-bo-font-size);
+    font-family: var(--text-pc-18-bo-font-family);
+    font-weight: var(--text-pc-18-bo-font-weight);
+    line-height: var(--text-pc-18-bo-line-height);
+}
+/* TEXT/PC/18/R */
+.text-pc-18-r {
+    font-size: var(--text-pc-18-r-font-size);
+    font-family: var(--text-pc-18-r-font-family);
+    font-weight: var(--text-pc-18-r-font-weight);
+    line-height: var(--text-pc-18-r-line-height);
+}
+/* TEXT/PC/36/B */
+.text-pc-36-b {
+    font-size: var(--text-pc-36-b-font-size);
+    font-family: var(--text-pc-36-b-font-family);
+    font-weight: var(--text-pc-36-b-font-weight);
+    line-height: var(--text-pc-36-b-line-height);
+	letter-spacing: -0.03375rem;
+	text-transform: capitalize;
+}
+
+/* TEXT/PC/26/R */
+.text-pc-26-r {
+    font-size: var(--text-pc-26-r-font-size);
+    font-family: var(--text-pc-26-r-font-family);
+    font-weight: var(--text-pc-26-r-font-weight);
+    line-height: var(--text-pc-26-r-line-height);
+}
+/* TEXT/PC/16/BO */
+.text-pc-16-bo {
+    font-size: var(--text-pc-16-bo-font-size);
+    font-family: var(--text-pc-16-bo-font-family);
+    font-weight: var(--text-pc-16-bo-font-weight);
+    line-height: var(--text-pc-16-bo-line-height);
+}
+/* TEXT/PC/14/R */
+.text-pc-14-r {
+    font-size: var(--text-pc-14-r-font-size);
+    font-family: var(--text-pc-14-r-font-family);
+    font-weight: var(--text-pc-14-r-font-weight);
+    line-height: var(--text-pc-14-r-line-height);
+}
+/* TEXT/PC/14/BO/ALLCAP */
+.text-pc-14-bo-allcap {
+    font-size: var(--text-pc-14-bo_allcap-font-size);
+    font-family: var(--text-pc-14-bo_allcap-font-family);
+    font-weight: var(--text-pc-14-bo_allcap-font-weight);
+    line-height: var(--text-pc-14-bo_allcap-line-height);
+    text-transform: uppercase;
+}
+
+@media (max-width: 639.98px) {
+    /* Mobile Text Styles */
+
+    /* TEXT/MB/20/R */
+    .text-mb-20-r {
+        font-size: var(--text-mb-20-r-font-size);
+        font-family: var(--text-mb-20-r-font-family);
+        font-weight: var(--text-mb-20-r-font-weight);
+        line-height: var(--text-mb-20-r-line-height);
+    }
+    /* TEXT/MB/14/BO */
+    .text-mb-14-bo {
+        font-size: var(--text-mb-14-bo-font-size);
+        font-family: var(--text-mb-14-bo-font-family);
+        font-weight: var(--text-mb-14-bo-font-weight);
+        line-height: var(--text-mb-14-bo-line-height);
+    }
+    /* TEXT/MB/14/R */
+    .text-mb-14-r {
+        font-size: var(--text-mb-14-r-font-size);
+        font-family: var(--text-mb-14-r-font-family);
+        font-weight: var(--text-mb-14-r-font-weight);
+        line-height: var(--text-mb-14-r-line-height);
+    }
+    /* TEXT/MB/14/B */
+    .text-mb-14-b {
+        font-size: var(--text-mb-14-b-font-size);
+        font-family: var(--text-mb-14-b-font-family);
+        font-weight: var(--text-mb-14-b-font-weight);
+        line-height: var(--text-mb-14-b-line-height);
+    }
+    /* TEXT/MB/22/B */
+    .text-mb-22-b {
+        font-size: var(--text-mb-22-b-font-size);
+        font-family: var(--text-mb-22-b-font-family);
+        font-weight: var(--text-mb-22-b-font-weight);
+        line-height: var(--text-mb-22-b-line-height);
+    }
+    /* TEXT/MB/18/B */
+    .text-mb-18-b {
+        font-size: var(--text-mb-18-b-font-size);
+        font-family: var(--text-mb-18-b-font-family);
+        font-weight: var(--text-mb-18-b-font-weight);
+        line-height: var(--text-mb-18-b-line-height);
+    }
+    /* TEXT/MB/12/R/ALLCAP */
+    .text-mb-12-r-allcap {
+        font-size: var(--text-mb-12-r_allcap-font-size);
+        font-family: var(--text-mb-12-r_allcap-font-family);
+        font-weight: var(--text-mb-12-r_allcap-font-weight);
+        line-height: var(--text-mb-12-r_allcap-line-height);
+        text-transform: uppercase;
+    }
+    /* TEXT/MB/12/BO */
+    .text-mb-12-bo {
+        font-size: var(--text-mb-12-bo-font-size);
+        font-family: var(--text-mb-12-bo-font-family);
+        font-weight: var(--text-mb-12-bo-font-weight);
+        line-height: var(--text-mb-12-bo-line-height);
+    }
+    /* TEXT/MB/12/R */
+    .text-mb-12-r {
+        font-size: var(--text-mb-12-r-font-size);
+        font-family: var(--text-mb-12-r-font-family);
+        font-weight: var(--text-mb-12-r-font-weight);
+        line-height: var(--text-mb-12-r-line-height);
+    }
+    /* TEXT/MB/10/R */
+    .text-mb-10-r {
+        font-size: var(--text-mb-10-r-font-size);
+        font-family: var(--text-mb-10-r-font-family);
+        font-weight: var(--text-mb-10-r-font-weight);
+        line-height: var(--text-mb-10-r-line-height);
+    }
+    /* TEXT/MB/10/BO */
+    .text-mb-10-bo {
+        font-size: var(--text-mb-10-bo-font-size);
+        font-family: var(--text-mb-10-bo-font-family);
+        font-weight: var(--text-mb-10-bo-font-weight);
+        line-height: var(--text-mb-10-bo-line-height);
+    }
+}
+
+.container {
+  width: 82.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}

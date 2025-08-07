@@ -1,0 +1,179 @@
+.achievement-board {
+    position: relative;
+    width: 100%;
+    min-height: 56.875rem;
+    background: linear-gradient(180deg, #5b378f 0%, #9774c9 76.34%),
+        linear-gradient(180deg, #5b378f -20.39%, #ffe6f8 58.4%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.achievement-gradient-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 109.44981rem;
+    height: 3.50894rem;
+}
+.achievement-gradient-bottom {
+    position: absolute;
+    bottom: -5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105.39394rem;
+    height: 10.25038rem;
+    z-index: 10;
+}
+.achievement-board__svg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    max-width: 1600px;
+    z-index: 1;
+    padding-top: 7.38rem;
+}
+
+.achievement-board__content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5.94rem;
+    z-index: 3;
+    text-align: center;
+    max-width: 26.3rem;
+}
+
+.achievement-board__title {
+    color: var(--WHITE, var(--WHITE-100, #fff));
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.1875rem; /* 141.667% */
+    letter-spacing: -0.03375rem;
+    text-transform: capitalize;
+    margin-bottom: 0.94rem;
+}
+
+.achievement-board__desc {
+    color: var(--WHITE-100, #fff);
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 325;
+    line-height: normal;
+    letter-spacing: -0.0225rem;
+}
+
+.achievement-board__avatar {
+    position: absolute;
+    width: clamp(50px, 6vw, 70px);
+    height: clamp(50px, 6vw, 80px);
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 75.3px 0px rgba(255, 255, 255, 0.12);
+    z-index: 2;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    will-change: transform;
+}
+
+.achievement-board__avatar:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.achievement-board__avatar--small {
+    width: clamp(40px, 5vw, 55px);
+    height: clamp(40px, 5vw, 65px);
+}
+
+.achievement-board__avatar--large {
+    width: clamp(60px, 7vw, 85px);
+    height: clamp(60px, 7vw, 95px);
+}
+
+/* Avatar background colors to match the design */
+.achievement-board__avatar--orange {
+    background: linear-gradient(135deg, #ff8a00, #ffb347);
+}
+
+.achievement-board__avatar--green {
+    background: linear-gradient(135deg, #4ade80, #86efac);
+}
+
+.achievement-board__avatar--purple {
+    background: linear-gradient(135deg, #a855f7, #c084fc);
+}
+
+.achievement-board__avatar--blue {
+    background: linear-gradient(135deg, #3b82f6, #60a5fa);
+}
+
+@media (max-width: 639.98px) {
+    .achievement-board__svg {
+        padding-top: 16rem;
+        width: 43.66656rem;
+    }
+    .achievement-board__content {
+        top: 5.57rem;
+        bottom: auto;
+    }
+    .achievement-board__content {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 0.85rem;
+    }
+    .achievement-board__title {
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 2.0625rem */
+        letter-spacing: -0.0275rem;
+        text-transform: capitalize;
+    }
+    .achievement-board__desc {
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 325;
+        line-height: 150%; /* 1.3125rem */
+        letter-spacing: -0.00875rem;
+    }
+    .achievement-board {
+        min-height: 34.875rem;
+        background: none;
+    }
+    .achievement-board__mobile-bg-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .achievement-gradient-bottom {
+        bottom: -1px;
+        left: 0;
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+    .achievement-board__avatar {
+        width: 4.56888rem;
+        height: 4.56888rem;
+        box-shadow: 0px 1.713px 32.239px 0px rgba(255, 255, 255, 0.12);
+    }
+    .achievement-board__avatar--small {
+        width: 4.35481rem;
+        height: 4.35481rem;
+    }
+    .achievement-board__avatar--large {
+        width: 5.7195rem;
+        height: 5.7195rem;
+    }
+}

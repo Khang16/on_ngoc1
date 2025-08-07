@@ -1,0 +1,25 @@
+@import url("../../components/compound-banner/styles.css");
+@import url("../popup-discount/styles.css");
+@import url("../course-detail-drawer/styles.css");
+@import url("../section-opening-course-schedule-by-month/styles.css");
+main {
+	position: relative;
+	overflow: hidden;
+}
+footer {
+	background: #e8f8fd;
+}
+footer .background,
+footer .background__mb {
+	z-index: 1;
+	object-fit: unset;
+}
+footer .container {
+	position: relative;
+	z-index: 2;
+}
+@media (max-width: 639.98px) {
+	footer {
+		background: #D5F2F2;
+	}
+}

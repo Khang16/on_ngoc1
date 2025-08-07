@@ -1,0 +1,52 @@
+@import url("../section-su-menh/assets/styles.css");
+@import url("../section-giang-vien/assets/styles.css");
+@import url("../../front-page/section-chinh-phuc/assets/styles.css");
+@import url("../section-doi-ngu/assets/styles.css");
+@import url("../section-thanh-qua/assets/styles.css");
+
+.rank-math-breadcrumb {
+	max-width: 82.5rem;
+	margin: 0 auto;
+	padding: 2.2rem 0 2.43rem;
+}
+.rank-math-breadcrumb * {
+	color: var(--TEXT-300, #6B7280);
+}
+#target {
+	height: auto;
+	padding-bottom: 9.31rem;
+}
+
+#target .background {
+	height: auto;
+}
+
+footer {
+	background: #F0FCFF;
+}
+
+footer .background, footer .background__mb {
+	z-index: 0;
+}
+
+@media (max-width: 639.98px) { 
+	#target {
+		padding-bottom: 2.72rem;
+	}
+	.rank-math-breadcrumb {
+		position: static;
+		max-width: 100%;
+		margin: 3.75rem auto 0;
+		padding: 1rem 0.75rem;
+	}
+	.rank-math-breadcrumb * {
+		color: rgba(16, 2, 73, 0.35);
+	}
+	.rank-math-breadcrumb span {
+		opacity: 1;
+		color: rgba(16, 2, 73, 0.20);
+	}
+	footer {
+		background: transparent;
+	} 
+}

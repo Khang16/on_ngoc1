@@ -1,0 +1,186 @@
+.popup-search {
+  width: 100%;
+  padding: 2.5rem 7.625rem 5rem 7.625rem;
+  border-radius: 0 0 2rem 2rem;
+  background: #fff;
+  box-shadow: 0 4px 27.6px 0 rgba(0, 0, 0, 0.06);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+.popup-search.active {
+  transform: translateY(0);
+}
+.popup-search-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+.popup-search.active ~ .popup-search-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+body:has(.popup-search.active) {
+  overflow: hidden;
+}
+
+.close-popup-search {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+}
+.popup-search__input-container {
+  margin-bottom: 2rem;
+  margin-top: 1.6875rem;
+  display: flex;
+  align-items: center;
+}
+.popup-search__input-container > .main-banner__button {
+  margin: 0;
+}
+.popup-search__input {
+  border-radius: var(--Spacing-32, 2rem);
+  background: #f7f7f7;
+  display: flex;
+  padding: var(--Padding-Small, 0.75rem) var(--Padding-Medium, 1rem);
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  margin-right: 1.25rem;
+}
+.popup-search__input > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+.popup-search__input > input {
+  color: var(--TEXT-500, #393939);
+  font-family: SVN-Gotham;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 160%; /* 1.4rem */
+  letter-spacing: -0.02725rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  flex: 1;
+}
+.recommend-title {
+  color: var(--TEXT-300, #6b7280);
+  font-family: SVN-Gotham;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.04rem;
+  margin-top: 1.25rem;
+}
+.recommend-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.recommend-item {
+  margin-top: 0.75rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.625rem 0.5625rem 0.625rem;
+  border-radius: var(--Spacing-32, 2rem);
+  background: #f7f7f7;
+  cursor: pointer;
+}
+.recommend-item > svg {
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-left: 0.25rem;
+  transform: translateY(0.125rem);
+}
+
+@media (max-width: 639.98px) {
+  .popup-search {
+    width: 100%;
+    height: 100dvh;
+    padding: 1rem 0.75rem 5rem;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+    position: fixed;
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transform: translateY(0) translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .popup-search .site-header__logo {
+    width: 5.375rem;
+    height: 1.75rem;
+  }
+  .popup-search.active {
+    transform: translateY(0) translateX(0);
+  }
+
+  .close-popup-search {
+    filter: brightness(0) saturate(100%) invert(58%) sepia(87%) saturate(369%) hue-rotate(132deg) brightness(93%)
+      contrast(87%);
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+  .popup-search__input-container {
+    margin-bottom: 1rem;
+  }
+  .popup-search__input {
+    margin-right: 0;
+  }
+  .recommend-title {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 160%; /* 1.4rem */
+    letter-spacing: -0.02725rem;
+    margin-bottom: 0.25rem;
+  }
+  .recommend-item {
+    margin-top: 0.5rem;
+  }
+
+  #submit-search-header {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    width: 21.9375rem;
+    height: 2.875rem;
+    padding: 0.25rem 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 3.25rem;
+    background: var(--GRA-PURPLE, linear-gradient(90deg, #5b378f 0%, #7c58b1 100%));
+    color: var(--WHITE, var(--WHITE-100, #fff));
+    font-family: SVN-Gotham;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 140%; /* 1.05rem */
+    letter-spacing: -0.0225rem;
+    cursor: pointer;
+  }
+}

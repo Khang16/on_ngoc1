@@ -1,0 +1,244 @@
+.results__main {
+	position: relative;
+	width: 100%;
+	height: 58.0625rem;
+}
+
+.results__bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.results__main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.results__title {
+	color: #2c0f66;
+	text-align: center;
+	font-family: SVN-Gotham;
+	font-size: 2.25rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 3.1875rem; /* 141.667% */
+	letter-spacing: -0.03375rem;
+	text-transform: capitalize;
+	margin-top: 0.94rem;
+	margin-top: 5.12rem;
+}
+
+.results__description {
+	color: #0f3371;
+	text-align: center;
+	font-family: SVN-Gotham;
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 325;
+	line-height: normal;
+	letter-spacing: -0.0225rem;
+	width: 44.8125rem;
+}
+
+.results__body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 73.54319rem;
+	height: 40.61981rem;
+	top: 12.37rem;
+	left: 12.3rem;
+}
+
+.results_bg_img {
+	position: absolute;
+    top: 0;
+    right: 0;
+	width: 24.3125rem;
+	height: 32.125rem;
+	object-fit: cover;
+}
+.results__item_1 {
+	width: 29.55625rem;
+	height: 29.55625rem;
+	flex-shrink: 0;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+	bottom: 1.64rem;
+	right: 20rem;
+}
+
+.results--img-1 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.results__item_2 {
+	width: 20.11281rem;
+	height: 20.11281rem;
+	flex-shrink: 0;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	z-index: 9;
+	bottom: 7.32rem;
+	left: 5.08rem;
+}
+
+.results--img-2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.results__circle-1 {
+	width: 5.86081rem;
+	height: 5.86081rem;
+	flex-shrink: 0;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 20;
+	bottom: 0rem;
+	right: 0rem;
+	background-color: #5b378f;
+	bottom: 9rem;
+	right: -1rem;
+}
+
+.results__circle-2 {
+	flex-shrink: 0;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 20;
+	bottom: 0rem;
+	right: 0rem;
+	background-color: #5b378f;
+	width: 5.27344rem;
+	height: 5.27344rem;
+	top: 12rem;
+	left: 0rem;
+}
+
+.results__circle-3 {
+	flex-shrink: 0;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 20;
+	bottom: 0rem;
+	right: 0rem;
+	background-color: #5b378f;
+	width: 2.11813rem;
+	height: 2.11813rem;
+	top: 9rem;
+	left: 5rem;
+}
+
+@media screen and (max-width: 639.98px) {
+	.results__main {
+		width: 100%;
+		height: auto;
+		padding: 5.3125rem 0.75rem 22rem;
+	}
+	.results-about {
+		padding-bottom: 5.31rem;
+	}
+	.results__bg {
+		height: calc(100% + 2rem);
+	}
+	
+	.results__title {
+		width: 100%;
+		font-family: SVN-Gotham;
+		font-size: 1.375rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%; /* 2.0625rem */
+		letter-spacing: -0.0275rem;
+		text-transform: capitalize;
+		margin-bottom: 0.88rem;
+		margin-top: 0;
+	}
+
+	.results__description {
+		width: 100%;
+		font-size: 0.875rem;
+		font-style: normal;
+		font-weight: 325;
+		line-height: 150%; /* 1.3125rem */
+		letter-spacing: -0.00875rem;
+	}
+
+	.results__body {
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 18.65894rem;
+		top: unset;
+	}
+
+	.results__circle-1 {
+		width: 2.26056rem;
+		height: 2.26056rem;
+		right: unset;
+		left: 2.39rem;
+		bottom: 4.7rem;
+	}
+
+	.results__circle-2 {
+		width: 2.03406rem;
+		height: 2.03406rem;
+		top: 3.31rem;
+		right: 4.59rem;
+		left: unset;
+		bottom: unset;
+	}
+
+	.results__circle-3 {
+		width: 0.817rem;
+		height: 0.817rem;
+		top: 2.32rem;
+		left: unset;
+		bottom: unset;
+		right: 3.85rem;
+	}
+
+	.results_bg_img {
+		width: 9.38788rem;
+        height: 13.30788rem;
+		position: absolute;
+		z-index: 7;
+		bottom: 0rem;
+		right: 0.75rem;
+		left: unset;
+		top: unset;
+		object-fit: contain;
+	}
+
+	.results__item_1 {
+		width: 11.40025rem;
+		height: 11.40025rem;
+		left: 5.41rem;
+		top: 3.9rem;
+		bottom: unset;
+		right: unset;
+	}
+
+	.results__item_2 {
+		width: 7.75781rem;
+		height: 7.75781rem;
+		bottom: unset;
+		left: unset;
+		top: 0;
+		left: 0.75rem;
+	}
+}

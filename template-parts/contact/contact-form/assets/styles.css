@@ -1,0 +1,520 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+
+form {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 1.88rem;
+}
+
+.form__group {
+	display: flex;
+	grid-column: span 6;
+	flex-direction: column;
+}
+
+.form__group label {
+	color: rgba(16, 2, 73, 0.3);
+	font-family: "SVN-Gotham";
+	font-size: 0.70294rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 0.9525rem;
+	letter-spacing: 0.02213rem;
+	text-transform: uppercase;
+	text-indent: 1.75rem;
+}
+.form__group:not(.checkbox) label::after {
+  content: '*';
+  color: #ff0000;
+  margin-left: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: 0;
+}
+.form__group input,
+.form__group select {
+	color: #0D0840;
+	font-family: "SVN-Gotham";
+	font-size: 0.875rem;
+	height: 3.25rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 0.9525rem;
+	letter-spacing: 0.02213rem;
+	outline: none;
+	border: none;
+	border-radius: 2rem;
+	background: #E7F8FD;
+	display: flex;
+	padding: 0 1.75rem;
+	align-items: center;
+	gap: 0.625rem;
+	align-self: stretch;
+	margin-top: 1.06rem;
+	width: 100%;
+	z-index: 1;
+}
+
+.form__group input::placeholder {
+	color: rgba(13, 8, 64, 0.18);
+}
+
+.form__group select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	background-image: url("/wp-content/uploads/2025/06/arrow.webp");
+	background-repeat: no-repeat;
+	background-position: right 1.75rem center;
+	background-size: 0.75rem 0.44944rem;
+}
+
+form .form__group.checkbox {
+	grid-column: span 12;
+}
+
+form .form__group.checkbox label {
+	display: flex;
+	justify-content: start;
+	color: #333;
+	font-family: "SVN-Gotham";
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 325;
+	line-height: 0.84375rem;
+	align-items: center;
+	text-transform: initial;
+	text-indent: unset;
+}
+
+.form__group.checkbox label input {
+	width: auto;
+	margin-top: 0;
+	margin-right: 0.38rem;
+}
+
+.form__group.checkbox input[type="checkbox"]:checked+.checkbox-visual {
+	background-color: #4CAF50;
+	border-color: #4CAF50;
+}
+
+.inp__email,
+.inp__service {
+	margin: 2.5rem 0 1.5rem 0;
+}
+
+.inp__service {
+	position: relative;
+}
+
+
+/* 
+.inp__service .custom-select .wpcf7-not-valid-tip {
+display: none;
+} */
+
+.wpcf7-form-control.wpcf7-submit {
+	display: none;
+}
+
+.wpcf7-response-output {
+	width: 100%;
+	grid-column: span 12;
+	margin-top: 1.5rem;
+	color: #5b378f;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 1.47938rem;
+	letter-spacing: -0.03125rem;
+	  display: none;
+}
+
+.wpcf7-response-output:not(:empty) {
+  display: block;
+}
+
+.form__group.checkbox input[type='checkbox'] {
+  height: 1.125rem;
+}
+.form__group.checkbox label {
+  cursor: pointer;
+}
+#contact .contact__advise .contact__form .form__seperator {
+	margin: 1.5rem 0;
+	width: 100%;
+	height: 1px;
+	background: rgba(16, 2, 73, 0.1);
+}
+
+.main-banner__button {
+	align-self: start;
+	display: flex;
+	height: 3.375rem;
+	padding: 0.25rem 0.4375rem 0.25rem 1.4375rem;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3.25rem;
+	background: var(--GRA-PURPLE, linear-gradient(90deg, #5b378f 0%, #7c58b1 100%));
+	box-shadow: 0px 4px 51.6px 0px rgba(210, 210, 210, 0.25);
+	border: none;
+	width: 13.5rem;
+	margin-top: 1.75rem;
+}
+
+.main-banner__button .main-banner__button-text {
+	display: flex;
+	align-items: center;
+	color: var(--WHITE, var(--WHITE-100, #fff));
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 160%;
+	letter-spacing: -0.02725rem;
+	white-space: nowrap;
+}
+
+.main-banner__button .main-banner__button-text::after {
+	content: "";
+	display: inline-block;
+	width: 0.0625rem;
+	height: 1.05906rem;
+	margin-left: 1.31rem;
+	opacity: 0.3;
+	background: var(--WHITE-100, #fff);
+	transition: 0.25s ease-in-out;
+}
+
+.main-banner__button .main-banner__button-icon {
+	position: relative;
+	width: 2.6465rem;
+	height: 2.6465rem;
+	object-fit: contain;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.main-banner__button .main-banner__button-icon::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.62) 100%);
+	border-radius: 50%;
+	opacity: 0;
+	transform: scale(0.75);
+	transition: 0.25s ease-in-out;
+	z-index: 0;
+}
+
+.main-banner__button .main-banner__button-icon img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	z-index: 1;
+}
+
+.screen-reader-response {
+	display: none;
+}
+
+.wpcf7-not-valid-tip {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: #5b378f;
+	display: block;
+	text-indent: 1.75rem;
+}
+
+.main-banner__button.custom__submit {
+	position: relative;
+}
+
+.main-banner__button.loading .main-banner__button-icon img,
+.main-banner__button.loading .main-banner__button-icon::after,
+.main-banner__button.loading .main-banner__button-icon::before,
+.main-banner__button.loading .main-banner__button-text::after,
+.main-banner__button.loading .main-banner__button-text::before {
+	display: none;
+}
+
+.main-banner__button::after {
+	content: "";
+	border: 0.125rem solid transparent;
+	border-top-color: #fff;
+	border-radius: 50%;
+	animation: spinner 0.8s linear infinite;
+	display: none;
+	margin-left: 0;
+	width: 1.11606rem;
+	height: 0.97656rem;
+	right: 2.75rem;
+	position: absolute;
+}
+
+.main-banner__button.loading::after {
+	display: block;
+}
+
+@keyframes spinner {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.custom-select {
+	position: relative;
+	width: 100%;
+	margin-top: 1.06rem;
+}
+
+.select-button {
+	width: 100%;
+	padding: 1.125rem 1.75rem;
+	border: none;
+	border-radius: 2rem;
+	background: #E7F8FD;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #0D0840;
+	font-family: "SVN-Gotham";
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 0.9525rem;
+	letter-spacing: 0.02213rem;
+	transition: all 0.3s ease;
+	box-sizing: border-box;
+}
+
+.select-text {
+	flex: 1;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.select-placeholder {
+	color: rgba(13, 8, 64, 0.18);
+}
+
+.select-arrow {
+	width: 0.75rem;
+	height: 0.44944rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 0.3s ease;
+}
+
+.select-arrow img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.select-button.active .select-arrow {
+	transform: rotate(180deg);
+}
+
+.select-dropdown {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: white;
+	border: none;
+	border-top: none;
+	border-radius: 0.75rem;
+	max-height: 11rem;
+	overflow-y: auto;
+	z-index: 1000;
+	display: none;
+	box-shadow: 0px 4px 46.9px 0px rgba(0, 0, 0, 0.05);
+	margin-top: 0.75rem;
+	padding: 0.65rem 0;
+}
+
+.select-dropdown.show {
+	display: block;
+}
+
+.select-option {
+	padding: 0.5rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+	color: var(--Core-800-Primary, #444);
+	font-family: "SVN-Gotham";
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 0.9525rem;
+	letter-spacing: 0.02213rem;
+	border-bottom: 1px solid #F9F9F9;
+	position: relative;
+}
+
+.select-option::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+	background-image: url('/wp-content/uploads/2025/06/checked.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: none;
+}
+
+.select-option.selected::after {
+	display: block;
+}
+
+.select-option:last-child {
+	border-bottom: none;
+}
+
+.select-option:hover {
+	background: #E1EBF4;
+}
+
+.select-option.selected {
+	color: var(--Core-800-Primary, #444);
+	background: #E1EBF4;
+	font-family: "SVN-Gotham";
+}
+
+.option-title {
+	color: var(--Core-800-Primary, #444);
+	font-family: "SVN-Gotham";
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 160%;
+	letter-spacing: -0.02725rem;
+	padding-left: 1.75rem;
+}
+
+.hidden-cf7-select {
+	display: none !important;
+}
+.inp__service .wpcf7-not-valid-tip {
+	display: none;
+}
+
+@media (min-width: 1024px) {
+	.main-banner__button:hover .main-banner__button-icon::after {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.main-banner__button:hover .main-banner__button-icon img {
+		filter: brightness(0) saturate(100%) invert(35%) sepia(27%) saturate(1290%) hue-rotate(222deg) brightness(93%) contrast(86%);
+	}
+
+	.main-banner__button:hover .main-banner__button-text::after {
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width:639.9px) {
+	form {
+        column-gap: unset;
+        width: 100%;
+		display: flex;
+		flex-direction: column;
+        gap: 0;
+    }
+
+   	form > .form__group {
+        grid-column: span 12;
+		margin-bottom: 0.88rem !important;
+    }
+	.custom-select {
+		margin-top: 0.62rem;
+	}
+    .form__group label {
+        font-weight: 450;
+        line-height: 0.79975rem;
+        letter-spacing: -0.02156rem;
+        font-size: 0.625rem;
+        text-indent: 0.62rem;
+    }
+
+    .form__group input,
+    .form__group select {
+        margin-top: 0.62rem;
+        padding: 1rem 1.38rem 1.13rem 1.38rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        color: #606266;
+    }
+
+    form .form__group.checkbox label {
+        font-size: 0.625rem;
+        font-weight: 450;
+        line-height: 0.79975rem;
+        letter-spacing: -0.02156rem;
+        text-indent: unset;
+    }
+
+    .form__group.checkbox label input {
+        margin-right: 0.25rem;
+		line-height: normal;
+        height: auto;
+    }
+
+    .contact__advise .contact__form .form__seperator {
+        display: none;
+    }
+
+    .contact__form .main-banner__button {
+        width: 100%;
+        margin-top: 0.56rem;
+        padding: 0.25rem 0;
+    }
+
+    .contact__form .main-banner__button .main-banner__button-text {
+        font-size: 0.75rem;
+        font-weight: 450;
+        line-height: 140%;
+        letter-spacing: -0.0225rem;
+    }
+
+    .contact__form .main-banner__button .main-banner__button-icon {
+        display: none;
+    }
+
+    .inp__email,
+    .inp__service {
+        margin: 0;
+    }
+
+    .wpcf7-response-output {
+        font-size: 0.625rem;
+        margin-top: 0;
+    }
+
+    .wpcf7-not-valid-tip {
+        font-size: 0.625rem;
+        text-indent: 0.62rem;
+    }
+}
